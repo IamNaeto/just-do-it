@@ -1,7 +1,7 @@
 ﻿# Just-Do-It
 - A responsive, dynamic, and aesthetic to-do list web app.
     
-    - Live Link :: [Go Live]()
+    - Live Link :: [Go Live](https://iamnaeto.github.io/just-do-it/)
     
 ## Author: Charles Obimnaeto Egesionu ##
 
