@@ -364,6 +364,12 @@ form button {
 }
 
 @media only screen and (max-width: 400px) {
+    #header {
+        font-size: 1.6rem;
+    }
+    #title {
+        letter-spacing: 0.12rem;
+    }
     form {
         align-items: center;
         flex-direction: column;
