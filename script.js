@@ -41,9 +41,10 @@ showNextParagraph();
 
 
 // Update current time
-const date = new Date();
-document.getElementById("datetime").innerHTML = date.toLocaleString();
-
+setInterval(() => {
+    const date = new Date();
+    document.getElementById("datetime").innerHTML = date.toLocaleString();
+}, 1000);
 
 // Check if one theme has been set previously and apply it (or std theme if not found):
 let savedTheme = localStorage.getItem('savedTheme');
