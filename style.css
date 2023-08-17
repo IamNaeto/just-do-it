@@ -325,3 +325,63 @@ form button {
         transform: rotate(0deg);
     }
 }
+
+
+/* Media Query */
+@media only screen and (max-width: 1000px) {
+    .flexrow-container {
+        align-self: unset;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #header {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .github-corner:hover .octo-arm {
+        animation: none;
+    }
+
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out;
+    }
+
+    #title {
+        letter-spacing: 0.15rem;
+    }
+
+    #header {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    form {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    form input {
+        border-radius: 17px;
+    }
+
+    form button {
+        border-radius: 15px;
+        margin-top: 15px;
+        width: 50%;
+    }
+    form > button.light-button {
+        box-shadow: 0 0 5px lightgray;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    #header {
+        font-size: 1rem;
+    }
+}
