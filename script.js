@@ -12,8 +12,8 @@ const darkerTheme = document.querySelector('.darker-theme');
 const paragraphs = [
     "Do it tired!",
     "Do it unsure!",
-    "Do it overwhelmed!",
-    "Just do it!!!",
+    "Do it tensed!",
+    "Just do it!!!"
 ];
 let currentParagraphIndex = 0;
 
