@@ -18,7 +18,6 @@ body {
     background-image: linear-gradient(100deg, #575656, #062e3f);
     color: #ffdfdb;
     transition: 0.3s linear;
-    overflow: hidden;
 }
 
 .light {
@@ -83,15 +82,11 @@ body {
 .light-theme {
     background-image: linear-gradient(134deg, #EB001B 20.86%, #000000 97%);
 }
-/* .light-theme {
-    background-image: linear-gradient(100deg, #d4f1ff, #ffffff);
-} */
 
 .darker-theme {
     background-image: linear-gradient(100deg, #001214, #001f29);
 }
 
-/* Animation */
 #title {
     white-space: pre;
     letter-spacing: 0.20rem;
@@ -108,7 +103,6 @@ body {
     height: 1px;
     font-size: 17px;
     text-align: center;
-    font-weight: bold;
 }
 
 form {
@@ -237,7 +231,7 @@ form button {
 .todo {
     margin: 1rem;
     background: rgb(247, 226, 223);
-     color: black;
+    color: black;
     font-size: 19px;
     display: flex;
     justify-content: space-between;
